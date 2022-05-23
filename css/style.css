@@ -1,3 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.author-name {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    padding: 30px;
+}
+.show-more {
+    margin: 20px;
+    padding: 5px;
+}
+.add-card {
+    padding: 5px;
+}
 .modal{
     display: none;
     z-index: 1;
@@ -15,10 +34,10 @@
 .modal-content{
     display: flex;
     justify-content: space-between;
-    width: 1000px;
+    width: 600px;
     background-color: rgb(255, 254, 254);
     margin-top: 200px;
-    margin-left: 100px;
+    margin-left: 400px;
 
 }
 .modal-right-wrap{
@@ -29,6 +48,7 @@
 }
 .modal-img{
     width: 150px;
+    padding: 10px;
 }
 .modal-title{
     font-size: 28px;
@@ -37,13 +57,54 @@
 }
 .modal-text{
     font-size: 20px;
-    max-width: 700px;
+    max-width: 350px;
     padding-top: 30px;
-    font-family: 'Dancing Script', cursive;
     line-height: 22px;
     letter-spacing: 0.05rem;
+    padding-bottom: 10px;
 }
 .close{
     font-size: 40px;
     color: red;
+}
+.book-img {
+    width: 300px;
+    height: 400px;
+}
+.book-title {
+    width: 330px;
+}
+.book-description {
+    width: 330px;
+    margin: 20px 0;
+}
+.form {
+    width: 500px;
+    height: 700px;
+    background-color: rgb(213, 213, 211);
+    margin-top: 20px;
+}
+fieldset {
+    margin: 20px;
+}
+legend {
+    font-size: 22px;
+    padding: 20px;
+}
+label {
+    font-size: 16px;
+    padding-right: 20px;
+}
+.field {
+    padding: 10px;
+}
+.payment-wrap {
+    padding: 10px;
+}
+.gift-wrap label {
+    padding: 20px;
+}
+.button-wrap {
+    margin: 20px;
+    padding-top: 20px;
 }
